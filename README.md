@@ -1,6 +1,6 @@
 # 983. Minimum Cost For Tickets (All Approaches)
 
-- ## Approach 1:- Recursion
+- ## Approach 1:- Recursion (Time Limit Exceed)
 
     - ### Intuition  
         The problem revolves around minimizing the cost of traveling on specific days using three types of passes (1-day, 7-day, and 30-day) with associated costs. The solution requires deciding the optimal pass for each travel day to minimize the overall expense. The key observation is that the cost for a specific day depends on whether it is a travel day and the cost incurred by choosing different passes. By using recursion and considering overlapping subproblems (e.g., calculating costs for overlapping ranges of days), we can find the minimum cost efficiently.
